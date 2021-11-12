@@ -1,18 +1,19 @@
-const numbers = [2, 5, 7 , 9 , 1 , 3]
-var num
+// Algorito de ordenação por inserção
+const array = [2, 5, 7 , 9 , 1 , 3]
+var numero
 var token
 
-console.log(numbers);
+console.log(array)
 
-for (let i = 1; i < numbers.length; i++) {
-  num = numbers[i]
+array.forEach(function(valor, i) {
+  numero = valor
   token = i - 1
 
-  while(token >= 0 && num < numbers[token]) {
-    numbers[token+1] = numbers[token]
+  while(token >= 0 && numero < array[token]) {
+    array[token+1] = array[token]
     token--
   }
-  numbers[token+1] = num
-}
+  array[token+1] = numero
+})
 
-console.log(numbers);
+console.log(array)
