@@ -8,3 +8,5 @@ Instale o Node no computador, download em https://nodejs.org/, após instalar, u
 `node insertion-sort.js`
 
 O algoritmo irá ordenar uma lista de números pre-definida, esse método de ordenação é eficaz para pequenas listas, sua velocidade de execução varia de `n` até `n^2`.
+
+novo teste
